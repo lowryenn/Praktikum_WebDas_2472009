@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 40px 0; 
+    background-color: #F5F5F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center; 
+}
+  
+  .todo-container {
+    background-color: #4A90E2;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .add-btn {
+    background-color: #50C878;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    background-color: transparent;
+    padding: 6px;
+    margin: 4px 0;
+    cursor: pointer;
+  }
+  
+  footer {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    opacity: 0.8;
+  }
+  

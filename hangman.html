@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style2.css" />
+    <script src="hangman.js"></script>
+</head>
+<body>
+    <div class="gambar">
+        <img id="hangman" src="hangman1.png" />
+        <p id="lives">Lives : 0</p>
+    </div>
+    <div class="tulisan">
+        <h1 id="kosong">______</h1>
+        <p id="clue"> </p>
+        <input id="isi" maxlength="1" />
+        <button id="checkButton" onclick="checkAnswer()">Check</button>
+        <p id="announce"></p>
+    </div>
+
+</body>
+</html>

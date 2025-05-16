@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="pomodoro.js"></script>
+</head>
+<body>
+    <h3>Pomodoro</h3>
+
+    <div class="container">
+        <div class="box">
+            <div class="switchmode">
+                <p onclick="switchMode(0)">Pomodoro</p>
+                <p onclick="switchMode(1)">Short Break</p>
+            </div>
+          <p id="timer">25:00</p>
+          <button id="bTimer" onclick="startTimer()">START</button>
+        </div>
+        <p id="ttimer">Focus pocus!</p>
+    </div>
+</body>
+</html>
